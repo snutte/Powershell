@@ -10,14 +10,14 @@ Font download and install: https://github.com/ryanoasis/nerd-fonts/releases/down
 In powershell:
 ``````
 winget install Neovim.Neovim
-~~winget install JanDeDobbeleer.ohmyposh~~
+~~ winget install JanDeDobbeleer.ohmyposh ~~
 install-module -Name Terminal-Icons -Repositoritory PSGallery
 notepad $profile
 ``````
 
 add following in notepad, save and exit:
 ``````text
-~~oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/quick-term.omp.json" | Invoke-Expression~~
+~~ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/quick-term.omp.json" | Invoke-Expression ~~
 Import-Module -Name Terminal-Icons
 Clear-Host
 
